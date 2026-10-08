@@ -1,2 +1,2 @@
-# SA300-dsa
-Alpha 300 Category A — DSA Problem Log
+# A300-dsa
+Repo dedicated for daily DSA practice
