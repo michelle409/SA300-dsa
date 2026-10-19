@@ -17,4 +17,4 @@ print(arr1)  # [1,0,0,2,3,0,0,4]
 
 arr2 = [1,2,3]
 duplicateZeros(arr2)
-print(arr2)  # [1,2,3]
+print(arr2)  # [1,2,3
