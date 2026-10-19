@@ -1,9 +1,11 @@
-# Problem: 3Sum
-# Pattern: Sort + fix one number + two pointers on the rest
-# Time: O(n^2) | Space: O(n)
-
+def bubbleSort(nums):
+    n = len(nums)
+    for i in range(n):
+        for j in range(n - 1):
+            if nums[j] > nums[j + 1]:
+                nums[j], nums[j + 1] = nums[j + 1], nums[j]
 def threeSum(nums):
-    nums.sort()
+    bubbleSort(nums)
     result = []
     for i in range(len(nums)):
         if i > 0 and nums[i] == nums[i - 1]:
@@ -27,5 +29,3 @@ def threeSum(nums):
     return result
 
 print(threeSum([-1, 0, 1, 2, -1, -4]))
-print(threeSum([0, 0, 0]))
-print(threeSum([0, 1, 1]))
