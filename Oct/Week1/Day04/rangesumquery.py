@@ -15,3 +15,5 @@ obj = NumArray([-2, 0, 3, -5, 2, -1])
 print(obj.sumRange(0, 2))   # 1
 print(obj.sumRange(2, 5))   # -1
 print(obj.sumRange(0, 5))   # -3
+
+#prefix[right + 1] - prefix[left]
